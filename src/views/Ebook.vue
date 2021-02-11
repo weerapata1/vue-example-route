@@ -1,17 +1,17 @@
 <template>
-  <div class="Ebooks">
+  <div class="ebooks">
     <EBook />
   </div>
 </template>
 
 <script>
+// @ is an alias to /src
 import EBook from '@/components/Ebook.vue'
 
 export default {
-    name : 'Ebook',
-    components: {
-        EBook
-
-    }
-    
+  name: 'Books',
+  components: {
+    EBook
+  }
 }
+</script>

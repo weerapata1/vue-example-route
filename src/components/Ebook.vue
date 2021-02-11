@@ -3,7 +3,7 @@
         <div class="display-4 text-center">E-Books</div> 
         <div class="text-primary text-center">
             <div class="display-2">
-                {{myProperty}}
+                <p>{{myProperty}}</p>
             </div>
         </div>
         
