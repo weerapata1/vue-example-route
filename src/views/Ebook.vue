@@ -12,6 +12,8 @@ export default {
   name: 'Books',
   components: {
     EBook
-  }
+  },
+  props: ["ebookObject"]
+
 }
 </script>
