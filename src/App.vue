@@ -13,24 +13,24 @@
           <ul class="navbar-nav">
             <li class="nav-item active">
               <router-link to="/">
-                <button type="button" class="btn btn-primary">home</button>
+                <button type="button" class="btn btn-outline-primary mr-2">home</button>
               </router-link>  
             </li>
             <li class="nav-item active">
               <router-link to="/books">
-                <button type="button" class="btn btn-outline-secondary">Books</button>
+                <button type="button" class="btn btn-outline-secondary mr-2">Books</button>
               </router-link>  
             </li>
             <li>
               <router-link to="/addBook">
-                <button type="button" class="btn btn-dark"> 
+                <button type="button" class="btn btn-outline-dark mr-2"> 
                   Add Book
                 </button>
               </router-link>  
             </li>
             <li>
               <router-link to="/about">
-                <button type="button" class="btn btn-outline-dark"> 
+                <button type="button" class="btn btn-outline-dark mr-2"> 
                   About
                 </button>
               </router-link>  
